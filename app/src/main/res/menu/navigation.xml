@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Genel" />
+
+    <item
+        android:id="@+id/urunler"
+        android:icon="@drawable/urun"
+        android:title="Ürün" />
+    <item
+        android:id="@+id/siparisler"
+        android:icon="@drawable/siparis"
+        android:title="Sipariş" />
+    <item
+        android:id="@+id/rapor"
+        android:icon="@drawable/analiz"
+        android:title="Analiz" />
+    <item
+        android:id="@+id/temsilci"
+        android:icon="@drawable/temsilci"
+        android:title="Temsilcİ" />
+
+
+
+
+</menu>

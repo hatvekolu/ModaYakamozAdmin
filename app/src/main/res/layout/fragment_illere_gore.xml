@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hedefsvr.modayakamozadmin.analiz.IllereGore"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <AutoCompleteTextView
+        android:id="@+id/ilArama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Arama (Örn: Ankara)" />
+
+    <ListView
+        android:id="@+id/iller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/arama2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" />
+</LinearLayout>

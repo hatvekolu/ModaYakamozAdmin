@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hedefsvr.modayakamozadmin.siparis.YoldaFragment"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:imeOptions="actionSearch"
+        android:hint="Arama (Örn: Ad, Soyad, Tel)"
+        android:inputType="textPersonName" />
+
+    <ListView
+        android:id="@+id/yoldaList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

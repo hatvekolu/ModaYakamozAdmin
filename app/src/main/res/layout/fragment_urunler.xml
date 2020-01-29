@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hedefsvr.modayakamozadmin.urunler.UrunlerFragment"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/arama1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:imeOptions="actionSearch"
+        android:hint="Arama (Örn: 1201, Kürk, Tayt)"
+        android:inputType="text"
+        android:textSize="16sp" />
+
+    <GridView
+        android:id="@+id/urunler"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:numColumns="3"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/arama1" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/save" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorAccent"
+        app:elevation="0dp"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/filter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:id="@+id/hep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="invisible"
+        android:layout_above="@+id/zemin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:padding="3dp"
+            android:text="Tüm Ürünler"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton6"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            app:backgroundTint="@android:color/holo_blue_bright"
+            app:elevation="0dp"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/urun" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/alt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="invisible"
+        android:layout_above="@+id/floatingActionButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:padding="3dp"
+            android:text="Tükenen Ürünler"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            app:backgroundTint="@android:color/holo_blue_bright"
+            app:elevation="0dp"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/durum4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/zemin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="invisible"
+        android:layout_above="@+id/alt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:padding="3dp"
+            android:text="Mevcut Ürünler"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton5"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            app:backgroundTint="@android:color/holo_blue_bright"
+            app:elevation="0dp"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/durum3" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hedefsvr.modayakamozadmin.genel.PreOrderFragment"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Arama"
+        android:inputType="textPersonName" />
+
+    <GridView
+        android:id="@+id/urun_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3" />
+
+</LinearLayout>

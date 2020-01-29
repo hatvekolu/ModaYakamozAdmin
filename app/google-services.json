@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "1032041167057",
+    "firebase_url": "https://modayakamoz-ca33d.firebaseio.com",
+    "project_id": "modayakamoz-ca33d",
+    "storage_bucket": "modayakamoz-ca33d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032041167057:android:f2360a0e21f030cf",
+        "android_client_info": {
+          "package_name": "com.hedefsvr.modayakamozadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032041167057-19vuj60uhffqps6t4kt1ht77sk48fs4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1xKl7zfLtBDQeH6G3lH3H4p3ZCpsLp6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032041167057-19vuj60uhffqps6t4kt1ht77sk48fs4d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1032041167057-ufc8tkti7sn45gpplokjmmqpt1regch0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.modayakamoz.ModaYakamozBayiApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032041167057:android:866de2918a4b1be7",
+        "android_client_info": {
+          "package_name": "com.trendmoda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032041167057-19vuj60uhffqps6t4kt1ht77sk48fs4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1xKl7zfLtBDQeH6G3lH3H4p3ZCpsLp6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032041167057-19vuj60uhffqps6t4kt1ht77sk48fs4d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1032041167057-ufc8tkti7sn45gpplokjmmqpt1regch0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.modayakamoz.ModaYakamozBayiApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

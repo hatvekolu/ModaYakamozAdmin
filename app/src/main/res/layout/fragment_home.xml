@@ -1,0 +1,373 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hedefsvr.modayakamozadmin.genel.HomeFragment">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="3dp"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/order" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="3dp"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/dagit" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/background_dark"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/toplam"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/background_light"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/toplam" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/bekleyen"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/background_light"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/durum1" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/yolda"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/background_light"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/durum2" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ulasan"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/background_light"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/durum3" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/donen"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/background_light"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/durum4" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dip"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:text="ULAŞMA YÜZDESİ"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="2dip"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@android:color/darker_gray" />
+
+                        <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                            android:id="@+id/circularProgressBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            app:cpb_background_progressbar_color="#FFCDD2"
+                            app:cpb_background_progressbar_width="5dp"
+                            app:cpb_progressbar_color="#F44336"
+                            app:cpb_progressbar_width="10dp" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="2dip"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@android:color/darker_gray" />
+
+                        <TextView
+                            android:id="@+id/ulasmaYuzde"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="false"
+                            android:layout_centerHorizontal="false"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:text="EN ÇOK SATAN ÜRÜN"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="2dip"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@android:color/darker_gray" />
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="2dip"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@android:color/darker_gray" />
+
+                        <TextView
+                            android:id="@+id/adet"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dip"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@android:color/darker_gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <org.eazegraph.lib.charts.BarChart
+                        android:id="@+id/barchart"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:padding="10dp"
+                        app:egBarWidth="20dp"
+                        app:egFixedBarWidth="true"
+                        app:egLegendHeight="40dp" />
+
+                    <Spinner
+                        android:id="@+id/planets_spinner"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/barchart"
+                        android:layout_margin="2dp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
